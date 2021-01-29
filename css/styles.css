@@ -285,8 +285,6 @@ body {
   right: 8px;
   width: 30px;
   height: 30px;
-  /* margin-right: 8px;
-  margin-top: 8px; */
   border-radius: 50%;
   background: var(--main-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -712,10 +710,6 @@ body {
   margin-bottom: 20px;
   color: var(--background-button-color);
 }
-
-/* .footer-subscribe-form {
-  display: flex;
-} */
 
 .subscribe-form {
   display: flex;
