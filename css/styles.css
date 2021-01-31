@@ -356,6 +356,7 @@ body {
 
 .form-subtitle {
   margin-bottom: 4px;
+  color: var(--main-text-color);
 }
 
 .form-item.form-comment {
@@ -368,7 +369,6 @@ body {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--main-text-color);
 }
 
 .form-icon {
@@ -378,6 +378,7 @@ body {
   width: 18px;
   height: 18px;
   margin-right: 12px;
+  fill: var(--title-text-color);
   transition: fill var(--animation-time) var(--timing-function);
 }
 
@@ -788,6 +789,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
+  outline: none;
   color: var(--main-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
